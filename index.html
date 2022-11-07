@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perros aleatorios</title>
+</head>
+<body>
+    <header>
+        <h1>Dogs app</h1>
+        <h3>by Goncar29</h3>   
+    </header>
+    
+    <span id="error"></span>
+
+    <section id="randomDogs">
+        <h2>Perros aleatorios</h2>
+        <article>
+            <div>
+                <img id="img1" src="" alt="Foto perros aleatorios" >
+                <button id="btn1"">Guardar Dog en favoritos</button>
+            </div>
+            <div>
+                <img id="img2" src="" alt="Foto perros aleatorios" >
+                <button id="btn2"">Guardar Dog en favoritos</button>
+            </div><div>
+                <img id="img3" src="" alt="Foto perros aleatorios" >
+                <button id="btn3"">Guardar Dog en favoritos</button>
+            </div>
+            <div>
+                <img id="img4" src="" alt="Foto perros aleatorios" >
+                <button id="btn4"">Guardar Dog en favoritos</button>
+            </div>
+            <div>
+                <img id="img5" src="" alt="Foto perros aleatorios" >
+                <button id="btn5"">Guardar Dog en favoritos</button>
+            </div>
+        </article>
+        <button id="carga" type="reset" onclick="loadRandomDogs()">Cargar mas imagenes</button>
+    </section>
+
+    <section id="uploadingDogs">
+        <h2>Sube la foto de tu Dog</h2>
+
+        <form id="uploadingForm" action="">
+            <input id="file" type="file" name="file">
+            <button type="button" onclick="uploadDogPhoto()">Subir foto de dog</button>
+        </form>
+    </section>
+
+    <section id="favoriteDogs">
+        <h2">Dogs favoritos</h2>
+        <article class="favoriteArticle">
+            <div>
+                <img id="img1" src="" alt="Foto perros aleatorios" height="500px">
+                <button>Sacar Dog de favoritos</button>
+            </div>
+        </article>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

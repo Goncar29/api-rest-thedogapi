@@ -1,0 +1,19 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "aprendiendo a usar una API-REST usando la documentacion thedogapi desde los curso de platzi",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apirest",
+    "javascript"
+  ],
+  "author": "Carlos Gonzalez >\u001b[D <carlosngonzalez0@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "main"
+  }
+}
